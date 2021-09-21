@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  line-height: 500px;
+  border-radius: 50%;
+  position: relative;
+  font-size: 50px;
+  color: rgb(29, 26, 26);
+  text-align: center;
+  top: 220px;
+  border: solid 5px white
+}
+
+.wrapper {
+  margin: 5px;
+}
+  body {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/58c3623929687fbc121d4351/1556406670123-F8DL1USA7KK6BJ5RAPJI/maxresdefault.jpg?format=2500w); 
+  background-size: 100%;
+  background-position: 0% 0%;
+}
+
+.nav {
+  position: relative;
+  top: -110px;
+  right: 5px;
+  width: 300px;
+  font-size: 45px;
+  color: whitesmoke
+}
+
+.link {
+  float: right;
+  width: 
+}
