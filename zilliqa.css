@@ -1,40 +1,77 @@
 body{
     background-color: black;
     margin: 0;
+    min-height: 2300px;
 }
 
-.circle {
-  width: 400px;
-  height: 400px;
-  line-height: 500px;
-  border-radius: 50%;
+.link {
+  font-size: 16px;
+  font-family: 'AvenirNext', Arial, sans-serif;
+  font-weight: bold;
+}
+
+  .tn-atom__img {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 300px;
+    right: -850px;
+  }
+
+  .background1 {
+  background-image: url(https://static.tildacdn.com/tild6564-6432-4365-a565-323938333337/home-01.svg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url(https://football.zilstars.com/img/all-players.d505aedd.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: 'AvenirNext', Arial, sans-serif;
+  color: whitesmoke;
   position: relative;
-  font-size: 50px;
-  color: rgb(29, 26, 26);
-  text-align: center;
-  top: 220px;
-  border: solid 5px white
+  top: 360px;
+  right: -760px;
 }
 
-.wrapper {
-  margin: 5px;
+p {
+  font-size: 22px;
+  font-family: 'AvenirNext', Arial, sans-serif;
+  color: whitesmoke;
+  position: relative;
+  top: 395px; 
+  right: 50px;
 }
-  body {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/58c3623929687fbc121d4351/1556406670123-F8DL1USA7KK6BJ5RAPJI/maxresdefault.jpg?format=2500w); 
-  background-size: 100%;
-  background-position: 0% 0%;
+
+button {
+  background-color: whitesmoke;
+  color: black;
+  position: relative;
+  right: -925px;
+  bottom: -450px;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nav {
   position: relative;
   top: -110px;
-  right: 5px;
+  right: -950px;
   width: 300px;
   font-size: 45px;
   color: whitesmoke
-}
-
-.link {
-  float: right;
-  width: 
 }
